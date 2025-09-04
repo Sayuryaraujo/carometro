@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Carômetro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PÁGINA INICIAL -->
+  <section class="pagina-inicial" id="inicio">
+    <h1>Bem-vindo ao Carômetro</h1>
+    <a href="#login">Fazer Login</a>
+    <a href="#cadastro">Fazer Cadastro</a>
+    <a href="#painel">Painel</a>
+  </section>
+
+  <!-- LOGIN -->
+  <section class="form-page" id="login">
+    <div class="box">
+      <h2>Login</h2>
+      <form>
+        <input type="email" placeholder="E-mail" required><br>
+        <input type="password" placeholder="Senha" required><br>
+        <button type="submit">Entrar</button>
+      </form>
+      <a href="#cadastro" class="link">Não tem conta? Cadastre-se</a>
+      <a href="#inicio" class="link">⬅ Voltar à página inicial</a>
+    </div>
+  </section>
+
+  <!-- CADASTRO -->
+  <section class="form-page" id="cadastro">
+    <div class="box">
+      <h2>Cadastro</h2>
+      <form>
+        <input type="text" placeholder="Nome completo" required><br>
+        <input type="email" placeholder="E-mail" required><br>
+        <input type="password" placeholder="Senha" required><br>
+        <button type="submit">Cadastrar</button>
+      </form>
+      <a href="#login" class="link">Já tem conta? Faça login</a>
+      <a href="#inicio" class="link">⬅ Voltar à página inicial</a>
+    </div>
+  </section>
+
+  <!-- PAINEL DO PROFESSOR -->
+  <section class="container" id="painel">
+    <div class="sidebar">
+      <h3>👩‍🏫 Nome do Professor(a)</h3>
+      <a href="#">Salas</a>
+      <a href="#">Notas</a>
+      <a href="#">Tarefas</a>
+      <a href="#">Rubricas</a>
+      <a href="#">Trabalhos</a>
+      <a href="#">Alunos</a>
+      <a href="#">⚙ Configurações</a>
+    </div>
+
+    <div class="main">
+      <div>
+        <h2>Salas</h2>
+        <div class="salas">
+          <button>Ensino Fundamental I</button>
+          <button>Ensino Médio</button>
+          <button>Ensino Fundamental II</button>
+          <button>SENAI</button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <button>Central de Ajuda</button>
+        <button>Calendário</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

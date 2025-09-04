@@ -1,0 +1,151 @@
+/* ESTILO GERAL */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* ESTILO DA PÁGINA INICIAL */
+.pagina-inicial {
+  background-color: red;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.pagina-inicial h1 {
+  margin-bottom: 30px;
+}
+
+.pagina-inicial a {
+  text-decoration: none;
+  background: white;
+  color: red;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.pagina-inicial a:hover {
+  background: #ddd;
+}
+
+/* ESTILO LOGIN E CADASTRO */
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px gray;
+  margin: auto;
+}
+
+.form-page {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input, button {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkred;
+}
+
+a.link {
+  display: block;
+  margin-top: 10px;
+  color: red;
+  text-decoration: none;
+}
+
+/* ESTILO PAINEL DO PROFESSOR */
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #d9d9d9;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #999;
+  border-radius: 5px;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+.sidebar a:hover {
+  background: #e0e0e0;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.salas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.salas button, .footer button {
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.salas button:hover, .footer button:hover {
+  background: #ddd;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
